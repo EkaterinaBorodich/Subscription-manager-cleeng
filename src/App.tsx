@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import SubscriptionsList from './components/SubscriptionsList';
 
 const fadeIn = keyframes`
   from {
@@ -60,6 +61,7 @@ const App = () => {
         <Title>My streaming service subscriptions</Title>
         <Subtitle>Manage your active streaming subscriptions</Subtitle>
       </Header>
+      <SubscriptionsList />
     </Container>
   );
 };

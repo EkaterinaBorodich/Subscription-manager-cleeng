@@ -5,4 +5,5 @@ export interface Subscription {
   price: number;
   currency: string;
   nextPaymentDate: string;
+  period: 'monthly' | 'annual';
 }

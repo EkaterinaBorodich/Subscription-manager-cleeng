@@ -9,6 +9,7 @@ export const mockSubscriptions: Subscription[] = [
     price: 12.99,
     currency: 'USD',
     nextPaymentDate: '2025-11-15T10:00:00Z',
+    period: 'monthly',
   },
   {
     id: 'S67890',
@@ -17,6 +18,7 @@ export const mockSubscriptions: Subscription[] = [
     price: 99.99,
     currency: 'USD',
     nextPaymentDate: '2026-08-01T10:00:00Z',
+    period: 'annual',
   },
   {
     id: 'S11223',
@@ -25,5 +27,6 @@ export const mockSubscriptions: Subscription[] = [
     price: 9.99,
     currency: 'USD',
     nextPaymentDate: '2025-12-01T10:00:00Z',
+    period: 'monthly',
   },
 ];
